@@ -1,2 +1,24 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# 가상환경
+venv/
+.venv/
+env/
+
+.env
+# 이것만 추가함
+
+# PyInstaller 빌드 산출물
+build/
+dist/
+*.spec
+
+# 크롤러 결과물 (재생성 가능한 데이터)
+naver_news_*.csv
+naver_news_*.xlsx
+
+# 환경설정/비밀값
+.env
